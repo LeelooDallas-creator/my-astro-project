@@ -1,0 +1,84 @@
+---
+// Welcome to Astro! Everything between these triple-dash code fences
+// is your "component frontmatter". It never runs in the browser.
+console.log('This runs in your terminal, not the browser!');
+---
+<!-- Below is your "component template." It's just HTML, but with
+    some magic sprinkled in to help you build great templates. -->
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ma page d'accueil</title>
+  </head>
+   
+  <body>
+    <h1>Bienvenue sur mon site web ! </h1>
+    <article>
+
+        <h2>La fan de séries</h2>
+
+        <div class="cameleon">
+        <p>Il existe des êtres doués </p>
+        <p>d'une intelligence supra normale,</p>
+        <p>des génies qui possèdent entre</p>
+        <p>autres la faculté d'assumer</p>
+        <p>n'importe quelle identité.</p>
+        <br>
+        <p>En 1963 les chercheurs d'une</p>
+        <p>entreprise appeléee "Le Centre"</p>
+        <p>ont mis en isolement un de ces êtres</p>
+        <p>une jeune fille nommée LISE</p>
+        <p>et exploitèrent son génie pour</p>
+        <p>des recherches secrètes.</p>
+        <br>
+        <p>Mais un jour, le "Caméléon" leur échappa ...</p>
+    </div>
+
+    <h2>La fan de disney</h2>
+
+    <div class="mushu">
+        <div style={{color: "red", textDecoration: "underline"}}>
+        <p>Déshonneur sur toi, déshonneur sur ta famille, 
+            déshonneur sur ta vache !</p>
+        <p>Ils poussent de partout, comme des paquerettes !</p>
+        <p>Je t'avais bien dit de ne pas fait du cheval hors piste !</p>
+        </div>
+        <span>
+            <blockquote>Ohana signifie famille. Famille signifie 
+            que personne ne doit être abandonné, ni oublié.
+            - Stitch </blockquote>
+            <img src="https://imgs.search.brave.com/q5FBcvXjgWoI15urlmOE4f_VSvGRw2ZmticZ9xvHHwQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvZmVhdHVy/ZWQvc3RpdGNoLXBp/Y3R1cmVzLWZlc3B2/bTF5NXRheG56bDcu/anBn" alt="Stitch">
+        </span>
+    </div>
+    </article>
+  </body>
+</html>
+<style>
+body {
+        padding: 2rem;
+}
+h1 {
+    color: rgb(252, 72, 102);
+}
+
+.cameleon p{
+    color: blue;
+}
+
+.cameleon {
+    background-color: black;
+    padding: 1rem;
+}
+
+span {
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+span img{
+    width: 200px;
+}
+</style>
