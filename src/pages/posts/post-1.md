@@ -9,15 +9,6 @@ image:
     alt: "Le logo Astro sur un fond sombre avec une lueur rose."
 tags: ["astro", "blogging", "apprentissage en public"]
 ---
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-  </head>
-  <body>
 
 Publié le : 2022-07-01
 
@@ -34,5 +25,3 @@ Bienvenue sur mon _nouveau blog_ dédié à l'apprentissage d'Astro ! Ici, je va
 ## Ce qui vient ensuite
 
 Je vais terminer le tutoriel Astro, puis continuer à ajouter plus d'articles. Restez à l'écoute pour en savoir plus.
-</body>
-</html>
